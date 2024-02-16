@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head>
+<link rel="stylesheet" href="form.css">
+<body>
+    <h1>Geeks For Geeks</h1>
+    <h3>Basics Form Design in Html</h3>
+    <form action="/index.html">
+        <fieldset>
+        <legend>Personal Details</legend><br>
+        Full Name :
+        <input type="text" placeholder="Enter name" required>
+        <br><br>
+        Email :
+        <input type="email" placeholder="Enter email" required>
+        <br><br>
+        password :
+        <input type="password" placeholder="Enter password" required minlength="5" maxlength="8">
+        <br><br>
+
+        <input type="date">
+        <br><br>
+        
+        Gender: Male
+        <input type="Radio" name="gender">
+
+        Female
+        <input type="Radio" name="gender">
+        <br><br>
+
+        <textarea cols="20" rows="10" placeholder="Address"></textarea>
+        <br><br>
+
+        <select>
+            <option>Select City</option>
+            <option>Mumbai</option>
+            <option>Pune</option>
+            <option>Hyderabad</option>
+
+        </select>
+        <br><br>
+        <button type="submit">Submit</button>
+    </fieldset>
+    </form>
+</fieldset>
+</body>
+</html>
